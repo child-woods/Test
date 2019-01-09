@@ -1,0 +1,11 @@
+{
+		"presets":  [
+			["es2015", { "loose": true }],
+			"stage-1",  // npm i babel-preset-stage-1 -D
+			"react"
+		],
+		"plugins": [
+			"transform-decorators-legacy",  // 必须放在第一项 npm i babel-plugin-transform-decorators-legacy -D
+			"react-hot-loader/babel"   // npm i react-hot-loader -D
+		]
+}

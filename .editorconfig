@@ -1,0 +1,9 @@
+ root = true  #根目录
+
+[*] # 所以文件都会执行该规范
+charset = utf-8
+indet_style = space  # tab键为空格
+indent_size = 2   # tab键占的空格数
+end_of_line = lf # 在代码的结束方式
+insert_final_newline = true  # 在代码的末尾如果没有空行则自动加一行
+trim_trailing_whitespace = true  #自动去掉每行代码后多余的空格
